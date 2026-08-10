@@ -9,12 +9,7 @@ requirements = python3,kivy
 orientation = portrait
 fullscreen = 0
 
-# 핵심: 안정적인 안드로이드 SDK 및 Build-tools 버전 지정
-android.api = 33
-android.minapi = 21
-android.sdk_build_tools_version = 33.0.2
-android.ndk = 25b
-android.archs = arm64-v8a, armeabi-v7a
+android.permissions = INTERNET
 android.accept_sdk_license = True
 android.allow_backup = True
 
